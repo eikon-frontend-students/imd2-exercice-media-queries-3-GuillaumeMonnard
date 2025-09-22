@@ -440,6 +440,72 @@ video {
   .feature-card {
     padding: 33px;
   }
+
+  .services h2 {
+    font-size: 29px;
+  }
+
+  .services-layout {
+    grid-template-columns: 2fr 1fr;
+    gap: 24px;
+  }
+
+  .service-sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .service-item {
+    padding: 17px;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    height: auto;
+  }
+
+  .service-item img {
+    width: 60px;
+    height: 40px;
+    margin: 0px;
+  }
+
+  .service-item p {
+    text-align: left;
+  }
+
+  .service-item-text {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .gallery-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    margin-bottom: 48px;
+  }
+
+  .footer-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 3fr 1fr;
+    gap: 24px;
+    margin-bottom: 32px;
+    text-align: center;
+  }
+
+  .footer-section {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .footer-section:has(h1) {
+    grid-column: 1 / 3;
+    grid-row: 2 / 2;
+    align-items: center;
+  }
 }
 
 /* DESKTOP - Large screens (1024px and up) */
