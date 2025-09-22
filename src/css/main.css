@@ -510,4 +510,39 @@ video {
 
 /* DESKTOP - Large screens (1024px and up) */
 @media screen and (min-width: 1024px) {
+  .nav-brand h1 {
+    font-size: 29px;
+  }
+
+  .hero-content h1 {
+    font-size: 48px;
+  }
+
+  .hero-content p {
+    font-size: 21px;
+    margin: 40px 400px;
+  }
+
+  .cta-button {
+    padding: 16px 30px;
+    margin-bottom: 60px;
+  }
+
+  .services h2 {
+    font-size: 40px;
+  }
+
+  .gallery h2 {
+    font-size: 40px;
+  }
+
+  .gallery-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .footer-content {
+    display: flex;
+    justify-content: start;
+    gap: 150px;
+  }
 }
